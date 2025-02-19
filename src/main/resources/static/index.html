@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Turistguide - Oplev Danmark</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav>
+  <ul>
+    <li><a href="index.html">Forside</a></li>
+    <li><a href="#attractions">Attraktioner</a></li>
+    <li><a href="#api-links">API Links</a></li>
+    <li><a href="#contact">Kontakt</a></li>
+  </ul>
+</nav>
+
+<!-- Velkomstsektion -->
+<header>
+  <h1>VELKOMMEN TIL TURISTGUIDES</h1>
+  <p>Udforsk Københavns mest fantastiske turistattraktioner.</p>
+    <p>Fra historiske slotte til naturskønne områder.</p>
+</header>
+
+<!-- Liste over turistattraktioner -->
+<section id="attractions">
+  <div class="parent">
+    <div class="attraction div10" style="background-image: url('https://api.copenhagen.citycardsolutions.com/storage/location_pictures/1702478765813_FAWMWCEPDEQ7NS5G.jpeg');">
+      <a href="https://www.glyptoteket.dk/" target="_blank">Glyptoteket</a>
+      <p>Et kunstmuseum i København.</p>
+    </div>
+    <div class="attraction div11" style="background-image: url('https://www.christiansborgslot.dk/wp-content/uploads/2024/12/Rasmus_Hjortshoj__Christiansborg_Slot_WEB-269.jpg');">
+      <a href="https://www.christiansborg.dk/" target="_blank">Christiansborg Slot</a>
+      <p>Historisk slot og regeringsæde.</p>
+    </div>
+    <div class="attraction div12" style="background-image: url('https://files.guidedanmark.org/files/447/300428_Maribo_Frilandsmuseet_luftfoto.jpg');">
+      <a href="https://www.natmus.dk/museer-og-slotte/frilandsmuseet/" target="_blank">Frilandsmuseet</a>
+      <p>Et åbent museum med gamle danske bygninger.</p>
+    </div>
+    <div class="attraction div13" style="background-image: url('https://danhostelcopenhagencity.dk/media/slonhagx/daniel_rasmussen_botanisk_have.jpg?width=1064&height=600&v=1daadd47ee611d0');">
+      <a href="https://botanik.snm.ku.dk/" target="_blank">Botanisk Have</a>
+      <p>En smuk have med sjældne planter.</p>
+    </div>
+    <div class="attraction div14" style="background-image: url('https://usercontent.one/wp/www.rundtidanmark.dk/wp-content/uploads/2022/01/KMO_7872-2.jpg?media=1701542504');">
+      <a href="https://www.marmorkirken.dk/" target="_blank">Marmorkirken</a>
+      <p>Imponerende kirke med kuppel i København.</p>
+    </div>
+    <div class="attraction div15" style="background-image: url('https://example.com/image.jpg');">
+      <a href="https://example.com" target="_blank">Eksempel Attraktion</a>
+      <p>Beskrivelse af eksempel attraktion.</p>
+    </div>
+  </div>
+</section>
+
+<!-- API Links -->
+<section id="api-links">
+  <h2>Se vores attraktioner via API</h2>
+  <p>Brug vores API til at hente data om turistattraktionerne:</p>
+  <ul>
+    <li><a href="http://localhost:8080/attractions" target="_blank">🔗 Hent alle attraktioner (GET /attractions)</a></li>
+    <li><a href="http://localhost:8080/attractions/Glyptoteket" target="_blank">🔗 Hent en specifik attraktion (GET /attractions/{name})</a></li>
+  </ul>
+</section>
+
+<!-- Footer med kontaktinfo -->
+<footer id="contact">
+  <p>📍 Turistguide Danmark | ✉ info@turistguide.dk | 📞 +45 1234 5678</p>
+</footer>
+
+</body>
+</html>
