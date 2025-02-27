@@ -11,7 +11,7 @@ import java.util.Optional;
 @CrossOrigin(origins = "*") // Tillader anmodninger fra alle domæner
 @RestController
 @RequestMapping("attractions")
-public class TouristController {
+public class  TouristController {
     private final TouristService touristService;
 
     // Constructor injection af service-laget
