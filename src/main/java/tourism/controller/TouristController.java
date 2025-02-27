@@ -16,6 +16,7 @@ public class TouristController {
 
     // Constructor injection af service-laget
     public TouristController(TouristService touristService) {
+
         this.touristService = touristService;
     }
 
